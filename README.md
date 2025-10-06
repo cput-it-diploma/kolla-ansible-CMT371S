@@ -6,12 +6,12 @@ Kolla-Ansible is a tool for deploying OpenStack services in Docker containers, u
 
 ---
 
-## Guide: Installing Kolla-Ansible on AWS EC2 (t3.large)
+## Guide: Installing Kolla-Ansible on AWS EC2 (t2.large)
 
 ### Prerequisites
 
 - AWS account with permissions to launch EC2 instances.
-- EC2 t3.large instance (2 vCPUs, 8GB RAM) running Ubuntu 22.04 LTS.
+- EC2 t2.large instance (2 vCPUs, 8GB RAM) running Ubuntu 22.04 LTS.
 - Security group allowing SSH (port 22) and required OpenStack ports.
 - SSH key pair for instance access.
 
